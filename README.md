@@ -22,9 +22,9 @@ java -jar schemaspy-6.2.2.jar -t mysql -db openeyes -host localhost -port 3306 -
 -dp : path to database connector file.
 -s : as far as I know there's no schema available in the SQL server. Hence I put schema name the same as database name to tell Schemaspy to generate the documentation on its own.
 -debug : to show what's running behind the hood
+```
 
 - Step 3: It will take a few hours for Schemaspy to run through the database and make documentation. However the result will be beautiful
-```
 
 ## Update
 If you want to use the newest version of Schemaspy version or Database connector, or downgrade them to a version corresponding to your openeyes database version. You can easily find them at:
